@@ -1,0 +1,14 @@
+/* Animasi untuk marquee */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Properti untuk animasi marquee */
+.animate-marquee {
+  animation: marquee 3s linear infinite;
+}
